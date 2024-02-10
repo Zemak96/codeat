@@ -11,9 +11,12 @@ import { Router } from '@angular/router';
 })
 export class CursoComponent {
   @Input() curso:any
-  private curBD = inject(BdCursosService)
+  private router = inject(Router)
+
+irACurso(id:number, curso:any){
+  this.router.navigate(['/cursos', id])
 }
 
-// irACurso(id:number, curso:any){
-//   this.router.navigate(['/cursos', id])
-// }
+}
+
+
