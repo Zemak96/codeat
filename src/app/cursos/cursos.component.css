@@ -1,0 +1,10 @@
+.cursos{
+    margin: 30px
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}

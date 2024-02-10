@@ -1,0 +1,49 @@
+<div class="inicio">
+    <section class="imagen"><h2>codeat</h2><h2>tu web de noticias de informática</h2></section>
+    <section class="articulosrec">
+        <h3 class="titarticulos">Artículos recientes</h3>
+        <div class="articulos">
+            <div class="imagena">
+                <img src="../../assets/img/1250px/01_Art1.png" alt="">
+            </div>
+            <div class="divtitulob">
+                <div class="titulob">{{getArticulosRecientes()[0].titulo}}</div>
+                <a class="boton">Leer artículo</a>
+            </div>
+            <div class="divtituloc">
+                <div class="tituloc">{{getArticulosRecientes()[1].titulo}}</div>
+                <a class="boton">Leer artículo</a>
+            </div>
+            <div class="imagend">
+                <img src="../../assets/img/1250px/02_Art2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="imagenews"><img src="../../assets/img/1250px/01_cabecera_IA.png" alt=""></div>
+        <div class="news">
+            <div class="newstit">
+                <h3>NEWSLETTER</h3>
+                <p>¡Suscríbete!</p>
+            </div>
+            <form action="">
+                <div class="nombre">
+                    <label for="nombre">Nombre</label><input class="texto" type="text" name="nombre" id="nombre">
+                </div>
+                <div class="ape">
+                    <label for="ape">Apellidos</label><input class="texto" type="text" name="ape" id="ape">
+                </div>
+                <div class="email">
+                    <label for="email">Correo electrónico</label><input class="texto" type="text" name="email" id="email">
+                </div>
+                <div class="telefono"><label for="telefono">Teléfono</label><input class="texto" type="text" name="telefono" id="telefono">
+                </div>
+                <div class="terminos">
+                    <label  class="labelterminos" for="terminos">Acepto los <a href="">términos y condiciones</a>, privacidad y LDP.</label><input type="checkbox" name="terminos" id="terminos">
+                </div>
+                <input type="submit" class="boton submit" value="Enviar">
+            </form>
+        </div>
+
+    </section>
+</div>

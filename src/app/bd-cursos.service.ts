@@ -1,0 +1,18 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class BdCursosService {
+
+  constructor() { }
+
+  private cursoData = [
+    {id:1, titulo: "Curso avanzado de Javascript", img:"../../assets/img/1250px/01_Cur1.png"},
+    {id:2, titulo: "Curso de PLSql para dummies", img:"../../assets/img/1250px/02_Cur2.png"},
+  ]
+
+  getCursos(){
+    return this.cursoData
+  }
+}

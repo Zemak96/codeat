@@ -1,0 +1,15 @@
+<div class="articulos">
+    <header id="titulo">
+        <h1>ARTICULOS</h1>
+    </header>
+    <main>
+            @for (art of getArticulos(); track art.id) {
+                <article>
+                    <app-articulo [articulo]="art"></app-articulo>
+                </article>
+                
+              }
+    </main>
+</div>
+
+

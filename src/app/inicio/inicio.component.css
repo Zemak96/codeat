@@ -1,0 +1,119 @@
+.inicio{
+    width: 100%;
+    height: 100%;
+}
+.imagen{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    background: url('../../assets/img/1250px/01_cabecera_IA.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 4rem;
+    color: white;
+    font-family: inter;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.articulosrec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 80px);
+}
+.titarticulos{
+    font-size: 2rem;
+    margin: 80px auto;
+}
+.newstit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.articulos{
+    display: grid;
+    grid-template-areas: "A B"
+                         "C D";
+    width: 80%;
+}
+.titulob{
+    margin-left: 20px;
+    width: 100%;
+    font-size: 2rem;
+
+}
+.tituloc{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    font-size: 2rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.imagena{
+    grid-area: A;
+}
+.divtitulob{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    grid-area: B;
+}
+.divtituloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    grid-area: C;
+}
+
+.imagend{
+    grid-area: D;
+}
+.newsletter{
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+}
+.imagenews{
+    width: 50%;
+}
+.imagenews img{
+
+}
+.news{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+input{
+    position: absolute;
+    right: 0;
+}
+.submit{
+    bottom: 0;
+}
+.labelterminos{
+    width: 60%;
+    font-size: smaller;
+}
