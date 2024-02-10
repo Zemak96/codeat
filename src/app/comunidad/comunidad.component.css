@@ -1,0 +1,38 @@
+.container {
+    width: 80%;
+    margin: 0;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 3px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.podcast, .post{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2em;
+    margin-top: 2em;
+    margin-top: 10px;
+}
+
+.card {
+    /* Estilo básico y alineacion */
+    padding: 1.5em;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* margin-top: 100px; */
+    border-radius: 4px;
+    background-color: rgb(224, 229, 236);
+    box-shadow: rgba(163, 177, 198, 0.6) 9px 9px 16px, rgba(255, 255, 255, 0.5) -9px -9px 16px;
+    border-radius: 4px;
+}
