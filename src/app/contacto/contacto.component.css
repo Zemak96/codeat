@@ -1,0 +1,76 @@
+
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #cacfd6;
+    box-shadow: rgba(163, 177, 198, 0.6) 9px 9px 16px, rgba(255, 255, 255, 0.5) -9px -9px 16px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 30px;
+}
+
+.campo {
+    width:85%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.eleccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+textarea {
+    width: 103%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+select {
+    width: 200px;
+    height: 25px;
+}
+
+textarea {
+    height: 50px;
+    border-radius: 6px;
+}
+
+.boton-enviar {
+    background-color: #424874;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+
+}
+.boton-cancelar{
+    border-radius: 6px;
+}
+
+.boton-enviar:hover,
+.boton-cancelar:hover {
+    cursor: pointer;
+}

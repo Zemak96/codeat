@@ -15,7 +15,7 @@ export class InicioComponent {
   private articulos = inject(BdArticulosService)
   private router = inject(Router)
 
-  
+
   getArticulosRecientes(){
     return this.articulos.getArticulosRecientes()
   }
