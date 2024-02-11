@@ -1,5 +1,3 @@
-
-
 .main-magna {
     display: flex;
     justify-content:center;
@@ -11,6 +9,10 @@ h1{
     font-size: 2.5rem;
     font-weight: 300;
 }
+h1:hover{
+    cursor: pointer;
+    color: var(--marian-blue);
+}
 p{
     line-height: 30px;
     font-size: 1.5rem;
@@ -19,7 +21,6 @@ p{
 .main-img img{
     border: 1px solid var(--french-gray);
     border-radius: 6px;
-
+    width: 100%;
     height: 100%;
-
 }

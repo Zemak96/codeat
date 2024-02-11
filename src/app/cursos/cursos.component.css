@@ -1,5 +1,5 @@
 .cursos{
-    margin: 30px
+    margin: 30px;
 }
 main{
     display: flex;
@@ -7,4 +7,7 @@ main{
 }
 h1{
     text-align: center;
+}
+article{
+    margin-bottom: 50px;
 }

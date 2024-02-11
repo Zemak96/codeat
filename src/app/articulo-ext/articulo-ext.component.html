@@ -1,6 +1,9 @@
 <div class="articulo">
     <h1>{{articulo.titulo}}</h1>
-    <div>{{articulo.texto}}</div>
-    
+    <div class="cuerpo">
+        <div class="imagen"><img src="{{articulo.img}}" alt=""></div>
+        <div [innerHTML]="articulo.texto"></div>
+    </div>
+
 </div>
 <a class="boton" (click)="volverArticulos()">Volver a artículos</a>

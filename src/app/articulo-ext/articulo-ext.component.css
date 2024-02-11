@@ -1,0 +1,15 @@
+.articulo{
+    margin: 50px;
+}
+.cuerpo{
+    display: flex;
+    gap: 30px;
+}
+.imagen{
+    width: 100%;
+}
+.imagen img{
+    width: 100%;
+    border: 1px solid var(--french-gray);
+    border-radius: 6px;
+}
