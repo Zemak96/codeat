@@ -94,7 +94,7 @@ img{
 
 }
 .imagenews{
-width: 50%;
+width: 49%;
 height: 100%;
 }
 .imagenews img{
@@ -140,10 +140,11 @@ form{
 .check{
     float: right;
 }
+.enviar{
+    text-align: center;
+}
 .submit{
-    width: 70px;
     border: 0;
-
 }
 .labeltexto{
     font-size: 1.5rem;

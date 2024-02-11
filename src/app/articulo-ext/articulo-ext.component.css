@@ -13,3 +13,7 @@
     border: 1px solid var(--french-gray);
     border-radius: 6px;
 }
+.volver{
+    text-align: center;
+    margin: 20px 0 60px 0;
+}
