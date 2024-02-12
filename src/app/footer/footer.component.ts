@@ -10,10 +10,10 @@ import { Router } from '@angular/router';
     styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-    constructor(private Router: Router) {
+    constructor(private router: Router) {
     }
 
     irAContacto() {
-        this.Router.navigate(['contacto'])
+        this.router.navigate(['contacto'])
     }
 }
