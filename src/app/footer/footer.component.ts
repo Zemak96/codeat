@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-footer',
@@ -9,13 +8,5 @@ import { Router } from '@angular/router';
     styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-    constructor(private router: Router) {
-    }
 
-    ngOnInit() {
-    }
-
-    irAContacto() {
-        this.router.navigate(['contacto'])
-    }
 }
