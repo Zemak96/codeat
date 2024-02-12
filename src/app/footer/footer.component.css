@@ -1,6 +1,5 @@
-.footer{
+.footer {
     width: 100%;
-
     background-color: var(--french-gray);
     display: flex;
     align-items: center;
@@ -8,27 +7,31 @@
     flex-direction: column;
     font-size: 20px;
 }
-.foot{
+
+.foot {
     width: 90%;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    -webkit-box-shadow: 0px 5px 0px -4px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 5px 0px -4px rgba(0,0,0,1);
-    box-shadow: 0px 5px 0px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 5px 0px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 5px 0px -4px rgba(0, 0, 0, 1);
+    box-shadow: 0px 5px 0px -4px rgba(0, 0, 0, 1);
 }
-.redes{
+
+.redes {
     width: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .redes a {
     display: flex;
     align-items: center;
 }
-.logo{
+
+.logo {
 
     width: 7%;
     height: 100%;
@@ -36,25 +39,29 @@
     justify-content: center;
     align-items: center;
 }
-.logo img{
+
+.logo img {
     height: 80%;
 }
-.enlaces{
+
+.enlaces {
     display: flex;
     justify-content: space-around;
     width: 60%;
     align-items: center;
 }
-.foot a{
+
+.foot a {
     text-decoration: none;
     color: #000;
 }
 
-.licencia{
+.licencia {
     font-size: smaller;
     text-align: center;
 }
-.licencia a{
+
+.licencia a {
     color: var(--marian-blue);
     text-decoration: none;
 }
