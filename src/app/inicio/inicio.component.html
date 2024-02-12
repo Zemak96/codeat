@@ -8,11 +8,11 @@
             </div>
             <div class="divtitulob">
                 <div class="titulob">{{getArticulosRecientes()[0].titulo}}</div>
-                <a class="boton">Leer artículo sobre JavaScript</a>
+                <a class="boton" (click)="leerArticulo(getArticulosRecientes()[0].id, getArticulosRecientes()[0])">Leer artículo sobre JavaScript</a>
             </div>
             <div class="divtituloc">
                 <div class="tituloc">{{getArticulosRecientes()[1].titulo}}</div>    
-                <a class="boton">Leer artículo sobre diseño</a>
+                <a class="boton" (click)="leerArticulo(getArticulosRecientes()[1].id, getArticulosRecientes()[1])">Leer artículo sobre diseño</a>
             </div>
             <div class="imagend">
                 <img src="../../assets/img/1250px/02_Art2.png" alt="Imagen de un PC">

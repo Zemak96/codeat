@@ -15,14 +15,10 @@ export class InicioComponent {
   private articulos = inject(BdArticulosService)
   private router = inject(Router)
 
-
   getArticulosRecientes(){
     return this.articulos.getArticulosRecientes()
   }
   leerArticulo(id:number, articulo:any){
     this.router.navigate(['/articulos', id])
-  }
-  enviarFormulario(){
-    alert("¡Gracias por suscribirte!")
   }
 }
