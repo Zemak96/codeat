@@ -17,7 +17,7 @@ export class BdArticulosService {
     return this.articuloData
   }
   getArticulosRecientes(){
-    return this.articuloData.slice(0, 3)
+    return this.articuloData.slice(0, 2)
   }
   getArticuloById(id:number){
     let articulo
