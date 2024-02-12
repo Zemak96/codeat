@@ -1,6 +1,6 @@
 <div class="cursos">
     <header id="titulo">
-        <h1>ANTONIO</h1>
+        <h1>CURSOS</h1>
     </header>
     <main>
         <div class="video">
@@ -10,11 +10,10 @@
                 Su navegador no soporta este elemento de vídeo.
             </video>
         </div>
-            @for (cur of getCursos(); track cur.id) {
-                <article>
-                    <app-curso [curso]="cur"></app-curso>
-                </article>
-              }
+        @for (cur of getCursos(); track cur.id) {
+        <article>
+            <app-curso [curso]="cur"></app-curso>
+        </article>
+        }
     </main>
 </div>
-
