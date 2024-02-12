@@ -56,8 +56,9 @@ h1{
 }
 
 .titulob, .tituloc{
+    padding: 1px;
     margin-left: 50px;
-    width: 100%;
+    width: calc(100% - 50px);
     font-size: 2rem;
 }
 img{
