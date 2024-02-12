@@ -6,6 +6,7 @@ main{
     flex-direction: column;
 }
 h1{
+    margin: 60px auto;
     text-align: center;
 }
 article{

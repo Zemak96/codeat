@@ -7,12 +7,14 @@
 }
 
 h1{
+    color: #757dc9;
     font-size: 2.5rem;
     font-weight: 300;
 }
 h1:hover{
     cursor: pointer;
-    color: var(--marian-blue);
+    color: black;
+
 }
 p{
     line-height: 30px;
@@ -22,6 +24,9 @@ p{
 .main-img{
     width: 50%;
     height: 100%;
+}
+.main-img:hover{
+    cursor: pointer;
 }
 .contenedor{
     width: 100%;

@@ -11,9 +11,10 @@ main {
     gap: 3px;
 }
 
-h1 {
+h1{
+    margin: 60px auto;
     text-align: center;
-}
+}   
 
 .podcast, .post{
     display: grid;
