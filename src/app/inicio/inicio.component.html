@@ -1,56 +1,56 @@
-<div class="inicio">
+<div class="inicio" aria-label="Sección principal de la página de inicio">
     <section class="imagen"><h1>codeat</h1><h2>tu web de noticias de informática</h2></section>
     <section class="articulosrec">
         <h2 class="titarticulos">ARTÍCULOS RECIENTES</h2>
         <div class="articulos">
             <div class="imagena">
-                <img src="../../assets/img/1250px/01_Art1.png" alt="Imagen de código JavaScript">
+                <img src="../../assets/img/1250px/01_Art1.png" alt="Imagen de código JavaScript" aria-label="Imagen de código JavaScript">
             </div>
             <div class="divtitulob">
                 <div class="titulob">{{getArticulosRecientes()[0].titulo}}</div>
-                <a class="boton" (click)="leerArticulo(getArticulosRecientes()[0].id, getArticulosRecientes()[0])">Leer artículo sobre JavaScript</a>
+                <a class="boton" (click)="leerArticulo(getArticulosRecientes()[0].id, getArticulosRecientes()[0])" aria-label="Leer artículo sobre JavaScript">Leer artículo sobre JavaScript</a>
             </div>
             <div class="divtituloc">
-                <div class="tituloc">{{getArticulosRecientes()[1].titulo}}</div>    
-                <a class="boton" (click)="leerArticulo(getArticulosRecientes()[1].id, getArticulosRecientes()[1])">Leer artículo sobre diseño</a>
+                <div class="tituloc">{{getArticulosRecientes()[1].titulo}}</div>
+                <a class="boton" (click)="leerArticulo(getArticulosRecientes()[1].id, getArticulosRecientes()[1])" aria-label="Leer artículo sobre diseño">Leer artículo sobre diseño</a>
             </div>
             <div class="imagend">
-                <img src="../../assets/img/1250px/02_Art2.png" alt="Imagen de un PC">
+                <img src="../../assets/img/1250px/02_Art2.png" alt="Imagen de un PC" aria-label="Imagen de un PC">
             </div>
         </div>
     </section>
     <section class="newsletter">
-        <div class="imagenews"><img src="../../assets/img/1250px/04_cabecera_IA.png" alt="Imagen de diferentes tipos de hardware"></div>
+        <div class="imagenews"><img src="../../assets/img/1250px/04_cabecera_IA.png" alt="Imagen de diferentes tipos de hardware" aria-label="Imagen de diferentes tipos de hardware"></div>
         <div class="news">
             <div class="newstit">
                 <h3>NEWSLETTER</h3>
                 <p>¡Suscríbete!</p>
             </div>
-            <form action="">
+            <form action="" aria-label="formulario de suscripción a newsletter">
                 <div class="campo">
                     <label for="nombre">Nombre:</label>
                     <input type="text" name="nombre" id="nombre" class="texto" required>
                 </div>
-        
+
                 <div class="campo">
                     <label for="apellidos">Apellidos:</label>
                     <input type="text" name="apellidos" id="apellidos" class="texto" required>
                 </div>
-        
+
                 <div class="campo">
                     <label for="telefono">Teléfono:</label>
                     <input type="text" name="telefono" id="telefono" class="texto" required>
                 </div>
-        
+
                 <div class="campo">
                     <label for="email">Correo electrónico:</label>
                     <input type="email" name="email" id="email" class="texto" required>
                 </div>
-        
+
                 <div class="terminos">
                     <input class="check" type="checkbox" name="terminos" id="terminos"><label  class="labelterminos" for="terminos">Acepto los <a href="">términos y condiciones</a>, privacidad y LDP.</label>
                 </div>
-                <div class="enviar"><input type="submit" class="submit boton" value="Enviar"/></div>
+                <div class="enviar"><input type="submit" class="submit boton" value="Enviar" aria-label="Enviar formulario de suscripción"/></div>
             </form>
         </div>
 
