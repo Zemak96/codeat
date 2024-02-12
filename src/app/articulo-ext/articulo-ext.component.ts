@@ -1,8 +1,7 @@
-import { Component, NgModule, OnInit, inject } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { BdArticulosService } from '../bd-articulos.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
-import { PdfViewerComponent, PdfViewerModule } from 'ng2-pdf-viewer';
 
 @Component({
   selector: 'app-articulo-ext',
