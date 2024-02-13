@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-comunidad',
-  standalone: true,
-  imports: [],
-  templateUrl: './comunidad.component.html',
-  styleUrl: './comunidad.component.css'
+    selector: 'app-comunidad',
+    standalone: true,
+    imports: [],
+    templateUrl: './comunidad.component.html',
+    styleUrl: './comunidad.component.css'
 })
 export class ComunidadComponent {
-  private transcripcion = `
+    private transcripcion = `
   (Intro)
 
   - Antonio Sola: Soy Antonio Sola y estoy aquí con unos invitados, provinientes del grado superior de desarrollo de aplicaciones web. Buenos días Lorena, Zaén, Zaira...
@@ -64,16 +64,16 @@ export class ComunidadComponent {
   (Intro)
   `;
 
-  private showTranscripcion: boolean = false
-  constructor(private router: Router){
+    private showTranscripcion: boolean = false
+    constructor(private router: Router) {
 
-  }
+    }
 
-  getTranscripcion(){
-    return this.transcripcion
-  }
-  mostrarTranscripcion(){
+    getTranscripcion() {
+        return this.transcripcion
+    }
+    mostrarTranscripcion() {
 
-    return this.showTranscripcion = !this.showTranscripcion
-  }
+        return this.showTranscripcion = !this.showTranscripcion
+    }
 }

@@ -1,37 +1,42 @@
 .main-magna {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     width: 100%;
     gap: 30px;
 }
 
-h1{
+h1 {
     color: #757dc9;
     font-size: 2.5rem;
     font-weight: 300;
 }
-h1:hover{
+
+h1:hover {
     cursor: pointer;
     color: black;
 
 }
-p{
+
+p {
     line-height: 30px;
     font-size: 1.5rem;
 }
 
-.main-img{
+.main-img {
     width: 50%;
     height: 100%;
 }
-.main-img:hover{
+
+.main-img:hover {
     cursor: pointer;
 }
-.contenedor{
+
+.contenedor {
     width: 100%;
 }
-.main-img img{
+
+.main-img img {
     border: 1px solid var(--french-gray);
     border-radius: 6px;
     width: 100%;

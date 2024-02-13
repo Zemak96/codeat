@@ -10,12 +10,12 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { ComunidadComponent } from './comunidad/comunidad.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, NavbarComponent, FooterComponent, InicioComponent, ArticulosComponent, CursosComponent, ContactoComponent, ComunidadComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    standalone: true,
+    imports: [CommonModule, RouterOutlet, NavbarComponent, FooterComponent, InicioComponent, ArticulosComponent, CursosComponent, ContactoComponent, ComunidadComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'codeat';
+    title = 'codeat';
 }

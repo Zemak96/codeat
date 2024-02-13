@@ -4,16 +4,17 @@
     </header>
     <main aria-label="Listado de cursos disponibles">
         <div class="video">
-            <video width="640" height="360" controls alt="Vídeo promocional de nuestros cursos" aria-label="Vídeo promocional de nuestros cursos">
+            <video width="640" height="360" controls alt="Vídeo promocional de nuestros cursos"
+                aria-label="Vídeo promocional de nuestros cursos">
                 <source src="../../assets/videos/Video-Publicitario.mp4" type="video/mp4">
                 <source src="../../assets/videos/Video-Publicitario.webm" type="video/webm">
                 Su navegador no soporta este elemento de vídeo.
             </video>
             <div class="transcripcion">
                 <a class="boton botontransc" (click)="mostrarTranscripcion()">Mostrar transcripción del vídeo</a>
-                    @if (mostrarTranscripcion() == false) {
-                        <p>{{getTranscripcion()}}</p>
-                    }
+                @if (mostrarTranscripcion() == false) {
+                <p>{{getTranscripcion()}}</p>
+                }
             </div>
         </div>
 

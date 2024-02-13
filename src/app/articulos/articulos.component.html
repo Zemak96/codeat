@@ -3,13 +3,11 @@
         <h1>ARTÍCULOS</h1>
     </header>
     <main>
-            @for (art of getArticulos(); track art.id) {
-                <article>
-                    <app-articulo [articulo]="art"></app-articulo>
-                </article>
-                
-              }
+        @for (art of getArticulos(); track art.id) {
+        <article>
+            <app-articulo [articulo]="art"></app-articulo>
+        </article>
+
+        }
     </main>
 </div>
-
-

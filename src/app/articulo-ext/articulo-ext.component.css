@@ -1,22 +1,27 @@
-.articulo{
+.articulo {
     margin: 60px;
 }
-h1{
+
+h1 {
     margin-bottom: 60px;
 }
-.cuerpo{
+
+.cuerpo {
     display: flex;
     gap: 30px;
 }
-.imagen{
+
+.imagen {
     width: 100%;
 }
-.imagen img{
+
+.imagen img {
     width: 100%;
     border: 1px solid var(--french-gray);
     border-radius: 6px;
 }
-.volver{
+
+.volver {
     text-align: center;
     margin: 20px 0 60px 0;
 }

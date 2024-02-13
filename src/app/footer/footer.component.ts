@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
     styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-    constructor(private router: Router){}
-    irContacto(){
+    constructor(private router: Router) { }
+    irContacto() {
         this.router.navigate(['contacto'])
     }
 }

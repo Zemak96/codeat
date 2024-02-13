@@ -1,14 +1,17 @@
-.articulos{
+.articulos {
     margin: 30px
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
 }
-h1{
+
+h1 {
     margin: 60px auto;
     text-align: center;
 }
-article{
+
+article {
     margin-bottom: 50px;
 }

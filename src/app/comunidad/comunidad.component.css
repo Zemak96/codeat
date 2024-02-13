@@ -11,14 +11,17 @@ main {
     gap: 3px;
 }
 
-h1{
+h1 {
     margin: 60px auto;
     text-align: center;
 }
- h2{
+
+h2 {
     text-align: center;
- }
-.podcast, .post{
+}
+
+.podcast,
+.post {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 2em;
@@ -39,75 +42,94 @@ h1{
     box-shadow: rgba(163, 177, 198, 0.6) 9px 9px 16px, rgba(255, 255, 255, 0.5) -9px -9px 16px;
     border-radius: 4px;
 }
-h3{
+
+h3 {
     font-size: 22px;
 }
-.descargas{
+
+.descargas {
     margin-top: 80px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.descargas h2{
+
+.descargas h2 {
     margin-bottom: 50px;
 }
-.desimages, .desvideo, .desaudio{
+
+.desimages,
+.desvideo,
+.desaudio {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
     margin-bottom: 50px;
 }
-.imagen, .audio{
+
+.imagen,
+.audio {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-.imagen img{
+
+.imagen img {
     width: 50%;
     border: 1px solid #a5aab0;
     border-radius: 4px;
 }
 
-.video video{
+.video video {
     border: 1px solid #a5aab0;
     border-radius: 4px;
 }
-.enlaces{
+
+.enlaces {
     width: 50%;
     font-size: 18px;
     display: flex;
     flex-direction: column;
 }
-.enlaces a{
+
+.enlaces a {
     color: var(--marian-blue);
     text-decoration: none;
 }
-.enlaces a:hover{
+
+.enlaces a:hover {
     color: black;
 }
-.descargar{
+
+.descargar {
     color: white;
 }
-.card .enlaces{
+
+.card .enlaces {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.desvideo{
+
+.desvideo {
     width: 80%;
 }
-.divisor{
+
+.divisor {
     width: 50px;
 }
-.video{
+
+.video {
     width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
-.video video, .video .enlaces{
+
+.video video,
+.video .enlaces {
     width: 100%;
 }
 

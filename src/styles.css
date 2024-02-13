@@ -1,28 +1,31 @@
 :root {
-       /* Fuentes */
- 
+    /* Fuentes */
+
     /* Colores */
     --french-gray: #CACFD6;
     --marian-blue: #424874;
     --periwinkle1: #dcd6f7;
     --periwinkle2: #a6b1e1;
     --azure: #d6e5e3;
- 
-   font-family: worksans;
+
+    font-family: worksans;
 }
-.boton{
+
+.boton {
     color: white;
-    font-weight:400;
+    font-weight: 400;
     background-color: var(--marian-blue);
-    padding:  12px;
+    padding: 12px;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.4s ease;
 }
-.boton:hover{
+
+.boton:hover {
     background-color: #373b60;
     color: var(--azure);
 }
+
 body {
     margin: 0;
     padding: 0;
