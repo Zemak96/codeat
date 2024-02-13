@@ -10,7 +10,12 @@ form {
 }
 
 h1 {
-    margin: 60px auto;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
     text-align: center;
 }
 
@@ -60,11 +65,16 @@ textarea {
     font-size: 18px;
     margin-bottom: 10px;
     border-radius: 6px;
-
+    width: 80%;
+    margin-left: 38px;
+    margin-top: 15px;
 }
 
 .boton-cancelar {
     border-radius: 6px;
+    width: 80%;
+    margin-left: 38px;
+    margin-top: 15px;
 }
 
 .boton-enviar:hover,
