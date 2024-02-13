@@ -10,6 +10,12 @@
                     <source src="../../assets/audios/Podcast.mp3" type="audio/mpeg">
                   Su navegador no soporta este elemento de audio.
                 </audio>
+                <div class="transcripcion">
+                    <a class="boton botontransc" (click)="mostrarTranscripcion()">Mostrar transcripción del vídeo</a>
+                        @if (mostrarTranscripcion()) {
+                            <p>{{getTranscripcion()}}</p>
+                        }
+                </div>
             </div>
             <div class="card">
                 <strong>Trabajo en remoto, ¿sí o no?</strong>

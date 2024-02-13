@@ -15,6 +15,7 @@ h1{
 }
 .video video{
     border-radius: 4px;
+    margin-bottom: 20px;
 }
 article{
     margin-bottom: 50px;

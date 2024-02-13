@@ -8,8 +8,15 @@
                 <source src="../../assets/videos/Video-Publicitario.mp4" type="video/mp4">
                 <source src="../../assets/videos/Video-Publicitario.webm" type="video/webm">
                 Su navegador no soporta este elemento de vídeo.
-            </video>
+            </video>  
+            <div class="transcripcion">
+                <a class="boton botontransc" (click)="mostrarTranscripcion()">Mostrar transcripción del vídeo</a>
+                    @if (mostrarTranscripcion()) {
+                        <p>{{getTranscripcion()}}</p>
+                    }
+            </div>
         </div>
+        
         @for (cur of getCursos(); track cur.id) {
         <article>
             <app-curso [curso]="cur"></app-curso>
