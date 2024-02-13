@@ -65,3 +65,6 @@
     color: var(--marian-blue);
     text-decoration: none;
 }
+.contacto:hover{
+    cursor: pointer;
+}

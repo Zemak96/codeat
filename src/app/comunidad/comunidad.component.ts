@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-comunidad',
@@ -8,4 +9,11 @@ import { Component } from '@angular/core';
   styleUrl: './comunidad.component.css'
 })
 export class ComunidadComponent {
+  constructor(private router: Router){
+
+  }
+  irContacto(){
+    console.log('contacto')
+    this.router.navigate(['contacto'])
+  }
 }

@@ -13,12 +13,17 @@ import { RouteConfigLoadEnd, Router } from '@angular/router';
 })
 export class InicioComponent {
   private articulos = inject(BdArticulosService)
-  private router = inject(Router)
+
+  constructor(private router: Router){}
 
   getArticulosRecientes(){
     return this.articulos.getArticulosRecientes()
   }
   leerArticulo(id:number, articulo:any){
     this.router.navigate(['/articulos', id])
+  }
+  irContacto(){
+    console.log('contacto')
+    this.router.navigate(['contacto'])
   }
 }

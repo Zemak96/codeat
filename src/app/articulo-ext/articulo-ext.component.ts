@@ -24,4 +24,9 @@ export class ArticuloExtComponent implements OnInit{
   volverArticulos(){
     this.router.navigate(['articulos'])
   }
+
+  irContacto(){
+    console.log('contacto')
+    this.router.navigate(['contacto'])
+  }
 }
