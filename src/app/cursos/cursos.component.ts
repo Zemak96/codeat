@@ -17,10 +17,6 @@ export class CursosComponent {
   constructor(private router: Router){
     
   }
-  irContacto(){
-    console.log('contacto')
-    this.router.navigate(['contacto'])
-  }
   getCursos(){
     return this.curBD.getCursos()
   }

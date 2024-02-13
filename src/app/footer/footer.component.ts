@@ -11,7 +11,6 @@ import { Router } from '@angular/router';
 export class FooterComponent {
     constructor(private router: Router){}
     irContacto(){
-        console.log('contacto')
         this.router.navigate(['contacto'])
     }
 }

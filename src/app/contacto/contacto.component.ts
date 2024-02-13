@@ -11,8 +11,4 @@ import { Router } from '@angular/router';
 export class ContactoComponent {
   constructor(private router: Router){
   }
-  irContacto(){
-    console.log('contacto')
-    this.router.navigate(['contacto'])
-  }
 }

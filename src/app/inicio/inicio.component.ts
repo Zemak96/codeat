@@ -22,8 +22,5 @@ export class InicioComponent {
   leerArticulo(id:number, articulo:any){
     this.router.navigate(['/articulos', id])
   }
-  irContacto(){
-    console.log('contacto')
-    this.router.navigate(['contacto'])
-  }
+
 }

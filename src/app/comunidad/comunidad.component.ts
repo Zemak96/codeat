@@ -12,8 +12,4 @@ export class ComunidadComponent {
   constructor(private router: Router){
 
   }
-  irContacto(){
-    console.log('contacto')
-    this.router.navigate(['contacto'])
-  }
 }

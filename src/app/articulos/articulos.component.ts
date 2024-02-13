@@ -16,8 +16,5 @@ export class ArticulosComponent {
   getArticulos(){
     return this.artBD.getArticulos()
   }
-  irContacto(){
-    console.log('contacto')
-    this.router.navigate(['contacto'])
-  }
+
 }
