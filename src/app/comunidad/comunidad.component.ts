@@ -19,6 +19,7 @@ export class ComunidadComponent {
     return this.transcripcion
   }
   mostrarTranscripcion(){
+    
     return this.showTranscripcion = !this.showTranscripcion
   }
 }
