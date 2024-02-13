@@ -14,7 +14,7 @@ main {
 h1{
     margin: 60px auto;
     text-align: center;
-}   
+}
  h2{
     text-align: center;
  }
@@ -109,4 +109,8 @@ h3{
 }
 .video video, .video .enlaces{
     width: 100%;
+}
+
+.transcripcion {
+    margin: 15px;
 }
